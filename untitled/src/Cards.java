@@ -37,4 +37,11 @@ public class Cards {
         label3.setForeground(new Color(33, 33, 33));
         card3.add(label3);
         
+        cardPanel.add(card1, "Card1");
+        cardPanel.add(card2, "Card2");
+        cardPanel.add(card3, "Card3");
+
+        JButton btn1 = new JButton("Show Card 1");
+        btn1.setFont(new Font("Segoe UI", Font.PLAIN,14));
+
 }
