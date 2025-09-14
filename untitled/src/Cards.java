@@ -61,6 +61,12 @@ public class Cards {
         btn3.setForeground(Color.WHITE);
         btn3.setFocusPainted(false);
         btn3.setBorder(BorderFactory.createEmptyBorder(8,16,8,16));
+        btn1.addActionListener(e -> cardLayout.show(cardPanel, "Card1"));
+        btn2.addActionListener(e -> cardLayout.show(cardPanel, "Card2"));
+        btn3.addActionListener(e -> cardLayout.show(cardPanel, "Card3"));
+
+        JPanel buttonPanel = new JPanel();
+        buttonPanel.setBackground(new Color(245,245,245));
         
 
 }
