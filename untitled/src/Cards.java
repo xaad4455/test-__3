@@ -8,5 +8,9 @@ public class Cards {
 
     public Cards() {
 
+        frame = new JFrame("Cards");
+        frame.setSize(450, 300);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLocationRelativeTo(null);
         
 }
