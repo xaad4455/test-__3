@@ -29,5 +29,12 @@ public class Cards {
         label2.setFont(new Font("Segoe UI", Font.BOLD, 20));
         label2.setForeground(new Color(33, 33, 33));
         card2.add(label2);
+
+        JPanel card3 = new JPanel();
+        card3.setBackground(new Color(211, 211, 211));
+        JLabel label3 = new JLabel("This is Card 3");
+        label3.setFont(new Font("Segoe UI", Font.BOLD, 20));
+        label3.setForeground(new Color(33, 33, 33));
+        card3.add(label3);
         
 }
