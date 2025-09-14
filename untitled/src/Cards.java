@@ -43,5 +43,24 @@ public class Cards {
 
         JButton btn1 = new JButton("Show Card 1");
         btn1.setFont(new Font("Segoe UI", Font.PLAIN,14));
+        btn1.setBackground(new Color(100, 149, 237));
+        btn1.setForeground(Color.WHITE);
+        btn1.setFocusPainted(false);
+        btn1.setBorder(BorderFactory.createEmptyBorder(8, 16, 8, 16));
+
+        JButton btn2 = new JButton("Show Card 2");
+        btn2.setFont(new Font("Segoe UI", Font.PLAIN, 14));
+        btn2.setBackground(new Color(100, 149, 237));
+        btn2.setForeground(Color.WHITE);
+        btn2.setFocusPainted(false);
+        btn2.setBorder(BorderFactory.createEmptyBorder(8, 16, 8, 16));
+
+        JButton btn3 = new JButton("Show Card 3");
+        btn3.setFont(new Font("Segoe UI", Font.PLAIN, 14));
+        btn3.setBackground(new Color(100, 149, 237));
+        btn3.setForeground(Color.WHITE);
+        btn3.setFocusPainted(false);
+        btn3.setBorder(BorderFactory.createEmptyBorder(8,16,8,16));
+        
 
 }
