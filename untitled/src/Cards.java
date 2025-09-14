@@ -20,4 +20,14 @@ public class Cards {
         card1.setBackground(new Color(135, 206, 250));
         JLabel label1 = new JLabel("This is Card 1");
         label1.setFont(new Font("Segoe UI", Font.BOLD,20));
+        label1.setForeground(new Color(33, 33, 33));
+        card1.add(label1);
+
+        JPanel card2 = new JPanel();
+        card2.setBackground(new Color(255, 182, 193));
+        JLabel label2 = new JLabel("This is Card 2");
+        label2.setFont(new Font("Segoe UI", Font.BOLD, 20));
+        label2.setForeground(new Color(33, 33, 33));
+        card2.add(label2);
+        
 }
