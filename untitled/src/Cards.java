@@ -67,6 +67,18 @@ public class Cards {
 
         JPanel buttonPanel = new JPanel();
         buttonPanel.setBackground(new Color(245,245,245));
-        
+        buttonPanel.setBorder(BorderFactory.createEmptyBorder(12, 10, 12, 10));
+        buttonPanel.add(btn1);
+        buttonPanel.add(btn2);
+        buttonPanel.add(btn3);
+
+
+        frame.add(cardPanel, BorderLayout.CENTER);
+        frame.add(buttonPanel, BorderLayout.SOUTH);
+
+        frame.setVisible(true);
+
+
+}
 
 }
